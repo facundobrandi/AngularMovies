@@ -1,0 +1,69 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "El origen",
+      "description": "Un ladrón experto en el arte de entrar en los sueños recibe la misión de implantar una idea en la mente de un empresario."
+    },
+    {
+      "id": "2",
+      "title": "Matrix",
+      "description": "Un programador descubre que la realidad que conoce es una simulación controlada por máquinas."
+    },
+    {
+      "id": "3",
+      "title": "Interestelar",
+      "description": "Un grupo de astronautas viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad."
+    },
+    {
+      "id": "4",
+      "title": "El señor de los anillos",
+      "description": "Un joven hobbit emprende un viaje épico para destruir un anillo con un poder devastador."
+    },
+    {
+      "id": "5",
+      "title": "Gladiador",
+      "description": "Un general romano traicionado busca venganza enfrentándose al emperador que asesinó a su familia."
+    },
+    {
+      "id": "6",
+      "title": "Pulp Fiction",
+      "description": "Las historias de varios personajes del mundo criminal se entrelazan en una narrativa no lineal."
+    },
+    {
+      "id": "7",
+      "title": "Forrest Gump",
+      "description": "La vida extraordinaria de un hombre sencillo que influye en grandes eventos históricos sin proponérselo."
+    },
+    {
+      "id": "8",
+      "title": "La vida es bella",
+      "description": "Un padre utiliza su imaginación para proteger a su hijo de los horrores de un campo de concentración."
+    },
+    {
+      "id": "10",
+      "title": "Parásitos",
+      "description": "Una familia pobre se infiltra en la vida de una familia adinerada, desatando una serie de eventos inesperados."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "facundobrandi20@hotmail.com",
+      "password": "1234",
+      "rol": "ADMIN"
+    },
+    {
+      "id": 2,
+      "email": "user@mail.com",
+      "password": "user123",
+      "rol": "USER"
+    },
+    {
+      "id": 3,
+      "email": "editor@mail.com",
+      "password": "editor123",
+      "rol": "USER"
+    }
+  ]
+}

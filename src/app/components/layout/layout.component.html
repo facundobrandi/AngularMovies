@@ -1,0 +1,30 @@
+<mat-sidenav-container class="container">
+
+    <!-- SIDEBAR -->
+    <mat-sidenav mode="side" [(opened)]="opened" class="sidenav">
+      <h3>Menú</h3>
+  
+      <button mat-button routerLink="/home">Home</button>
+      <button mat-button routerLink="/add">add movie</button>
+    </mat-sidenav>
+  
+    <!-- CONTENIDO -->
+    <mat-sidenav-content>
+  
+      <!-- HEADER -->
+      <mat-toolbar color="primary">
+        <button mat-icon-button (click)="opened = !opened">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span>Movies App</span>
+      </mat-toolbar>
+  
+      <!-- RUTAS -->
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>
+  
+    </mat-sidenav-content>
+  
+  </mat-sidenav-container>
+  
